@@ -1,0 +1,186 @@
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Sun May 8 23:40:09 2022 +0800
+
+    Commenting in blueprints
+
+    Commenting done for the more complex blueprints. Still have some more to do
+
+commit 672c3d0e1c7fd8dc0274dd90e9d500e49c86d1d5
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Sun May 8 20:42:48 2022 +0800
+
+    Fixed all VR stuff
+
+    - Works now for Oculus VR headsets (have to change plugins)
+    - Menus mostly work
+    - Changed grab angle for guns
+    - Changed VR controller shown
+    - Added glow to exit area when enemies are killed
+
+commit 6ee17bbfcce6bc0a371771500e0a8564e921d117
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Sun May 8 15:00:42 2022 +0800
+
+    Fixed most VR interactions
+
+    Player can now die and respawn
+    Main Menu interaction all works
+
+commit b36667b6b43b802b40267c3a2ddf8455485f1a05
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Sun May 8 00:07:00 2022 +0800
+
+    Added a fair bit of gameplay
+
+    Added (tested for KB/M):
+    -Death and respawn
+    -Score tracking
+    -Melee weapons break in one hit
+    -Main Menu
+    -Main Menu UI's
+    -Other Misc UI's
+
+commit 3658903ac10d29cd76ff0449c305930e3d851b88
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Sat May 7 21:25:56 2022 +0800
+
+    Update EnemyRanged.uasset
+
+commit d9d31c43b64bfbcfe9bf19d7ea65a61b6133225c
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Sat May 7 21:25:52 2022 +0800
+
+    Pull which broke a lot of things.
+
+    yay...
+    Only thing I think i have to fix is the:
+    -scoring system
+    -enemy scoring system (which ties into the scoring system)
+    -thrown weapons breaking
+    -something else i'll probably find soon...
+
+commit b970245ba14240cc5a50f07e51bdc2764464f827
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Tue May 3 10:47:54 2022 +0800
+
+    Added Ragdoll for enemies
+
+    - Fixed throwing objects in slowmo
+    - Head now gets hidden when enemy is killed
+
+commit c3ba6ea8f6ed54cffd463481e7917d8a8ec0bab8
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Mon May 2 22:00:55 2022 +0800
+
+    AI now looks at player when shooting
+
+    Can now kill enemies too!
+
+commit 4e9599dab50a3266f1da9d3fb20c005bcb4ea1f5
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Sat Apr 30 18:27:39 2022 +0800
+
+    Attempted fix for post processing
+
+    -Removed item glow for time being
+
+commit bf53ff8dd9dc8c476fbfa6f1d3674e6011882e37
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Fri Apr 29 21:47:48 2022 +0800
+
+    Outline created for enemies
+
+commit 3b0da1b20b090888561c57ce7d3b87c134d3876c
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Thu Apr 28 22:39:01 2022 +0800
+
+    Adjusted Navigation mesh
+
+commit 54e67696ac2624690c08df16faeba87625e64fa9
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Thu Apr 28 16:27:51 2022 +0800
+
+    Fixed AI wander state and VR stuff
+
+    -VR is all working now (mostly, need to get the damage dealing to fully test it!)
+    -AI can now go between 3 of the 4 states (can't investigate right now, but other 3 states all work)
+
+commit bbd721a5c0f59ef6a2c97b116d54c6da5c25ec85
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Tue Apr 26 15:05:59 2022 +0800
+
+    Added new AI state
+
+    Added AI state for patrol
+
+commit cfad407c63aa88fd9f0c5559d3f615e71e5cc93c
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Tue Apr 26 00:11:13 2022 +0800
+
+    Whole buncha stuff
+
+    - Added working AI (with states)
+        - Just need to get the ranged AI to target correctly....
+    - Added timer (just need to pair with area to start it)
+
+commit 9cf8a005df791073354d0b89b452dea18ca2b407
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Tue Apr 5 10:47:57 2022 +0800
+
+    Added throwing for ranged weapons
+
+    Adjusted outline rendering for destroyed actors. Enabled SteamVR. Guns now have an ammo counter (can't reload, intentional)
+
+commit c64a78850ac6efdec42638e1f8a2facf778345b1
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Mon Apr 4 22:26:03 2022 +0800
+
+    Added Item dropping/throwing
+
+    Can now throw items that are of "melee" actor type. Ranged items can now shoot
+
+commit 74f6d3b94d97efe0793ac5e644fd054696b19b54
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Fri Apr 1 17:06:07 2022 +0800
+
+    Added very simple item interaction
+
+    It's very rough for the time being, but will be improved
+
+commit 4a29d5bed324624395ebdb0bd7231a555d1ef60d
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Tue Mar 29 10:52:17 2022 +0800
+
+    Updated outline effect.
+
+    Can now be toggled by the player.
+
+commit e2802c6ccd8ba9959021b129e23be73485ca13d5
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Mon Mar 28 22:16:44 2022 +0800
+
+    Added simple outline effect. Added first person character
+
+    Will spawn player based on if a HMD activates or not. Simple outline is always active but can be enabled/disabled with switch.
+
+commit 22d0f06e2fe2d06c066ca6c2e3beb3885a9b7e5c
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Tue Mar 22 10:42:27 2022 +0800
+
+    Added outline actor
+
+    No code for the outline actor yet
+
+commit 48d7d49644fa4470ab3d6fcfe8d00046ed3d65c7
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Tue Mar 22 09:49:57 2022 +0800
+
+    Initial game commit
+
+    Using the VR Template
+
+commit 977345c1943a6a40dbf3fb77c8c19adaa4fa2db5
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Tue Mar 22 09:29:14 2022 +0800
+
+    Initial .gitignore commit
