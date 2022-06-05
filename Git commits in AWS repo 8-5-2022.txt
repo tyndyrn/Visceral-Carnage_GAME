@@ -1,4 +1,28 @@
 Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Sun Jun 5 22:40:39 2022 +0800
+
+    Final push for release builds
+
+commit 23db7ab9bb9e4caca327529e50313ec57ccdadf2
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Sat May 28 20:42:06 2022 +0800
+
+    Fixes for menus and teleporting
+
+    -Added a fix for player teleporting through ceiling (lowered teleport vertical height)
+    -Added new pause menu option to swap teleport locomotion controls
+    -Fixed(?) object interaction with dead enemies
+
+commit 5c2ba733613baa97c01ba4527d2b9f1521837335
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Tue May 24 10:04:40 2022 +0800
+
+    Updated Ranged AI to use Melee AI logic
+
+    Ranged AI now uses Melee AI movement logic (so it no longer gets stuck)
+
+commit b023681e81f1c67b152c69fbe37f35bcdd2b2ed8
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
 Date:   Sun May 8 23:40:09 2022 +0800
 
     Commenting in blueprints
@@ -162,6 +186,30 @@ Date:   Mon Mar 28 22:16:44 2022 +0800
     Added simple outline effect. Added first person character
 
     Will spawn player based on if a HMD activates or not. Simple outline is always active but can be enabled/disabled with switch.
+
+commit 22d0f06e2fe2d06c066ca6c2e3beb3885a9b7e5c
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Tue Mar 22 10:42:27 2022 +0800
+
+    Added outline actor
+
+    No code for the outline actor yet
+
+commit 48d7d49644fa4470ab3d6fcfe8d00046ed3d65c7
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Tue Mar 22 09:49:57 2022 +0800
+
+    Initial game commit
+
+    Using the VR Template
+
+commit 977345c1943a6a40dbf3fb77c8c19adaa4fa2db5
+Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
+Date:   Tue Mar 22 09:29:14 2022 +0800
+
+    Initial .gitignore commit
+(END)
+ys active but can be enabled/disabled with switch.
 
 commit 22d0f06e2fe2d06c066ca6c2e3beb3885a9b7e5c
 Author: Accident Prone <48279457+Accident-Prone@users.noreply.github.com>
